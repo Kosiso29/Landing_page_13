@@ -15,10 +15,10 @@
   overflow: hidden;
 }
 .headertext{
-  height: 42px;
-  width: 169px;
+  height: 1.976vw; /*42px*/
+  width: 12.37%; /*169px*/
   position: absolute;
-  left: 68px;
+  left: 4.978%; /*68px*/
   top: 50px;
   color: white;
   font-family: 'Sail', cursive;
@@ -30,10 +30,10 @@
 }
 .demos{
   position: absolute;
-  height: 27px;
-  width: 64px;
+  height: 3.075vw; /*27px*/
+  width: 4.685%; /*64px*/
   top: 61px;
-  left: 764px;
+  left: 55.93%; /*764px*/
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -46,14 +46,14 @@
   color: #01FEC1;
 }
 .features{
-  left: 921px;
+  left: 67.42%; /*921px*/
   color: white;
 }
 .download{
   color: white;
-  width: 177px;
+  width: 12.96%; /*177px*/
   height: 32px;
-  left: 1043px;
+  left: 79.35%; /*1043*/
   text-align: center;
 
   border: 2px solid #FFFFFF;
