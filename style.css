@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -11,12 +12,13 @@
   position: fixed;
   top: 0px;
   background: #161C2C;
+  overflow: hidden;
 }
 .headertext{
   height: 42px;
   width: 169px;
   position: absolute;
-  left: 134px;
+  left: 68px;
   top: 50px;
   color: white;
   font-family: 'Sail', cursive;
@@ -25,6 +27,145 @@
   font-size: 36px;
   line-height: 42px;
   z-index: 10;
+}
+.demos{
+  position: absolute;
+  height: 27px;
+  width: 64px;
+  top: 61px;
+  left: 764px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+
+  /* identical to box height */
+
+  color: #01FEC1;
+}
+.features{
+  left: 921px;
+  color: white;
+}
+.download{
+  color: white;
+  width: 177px;
+  height: 32px;
+  left: 1043px;
+  text-align: center;
+
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 32px;
+}
+.pbody{
+  position: relative;
+  top: 195px;
+  left: 68px;
+  width: 1141px;
+  height: 30px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 165.6%;
+  z-index: -1;
+
+  /* identical to box height, or 30px */
+
+  color: #454545;
+}
+.pheader{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.viewdemos{
+  position: absolute;
+  width: 207px;
+  height: 66px;
+  left: 87px;
+  top: 546px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 165.6%;
+  z-index: -1;
+  font-family: 'Poppins', sans-serif;
+  background: #01FEC1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  border: none;
+}
+.viewdownloads{
+  color: white;
+  left: 332px;
+}
+.leftTriangle{
+  position: absolute;
+  width: 468.82px;
+  height: 392.83px;
+  left: 0px;
+  top: 446.11px;
+  z-index: -1;
+  background-image: url(/img/Polygon2.png);
+  background-repeat: no-repeat;
+}
+.rightTriangle{
+  position: absolute;
+  width: 468.82px;
+  height: 392.95px;
+  left: 1085px;
+  top: 609.82px;
+  z-index: -1;
+  background-image: url(/img/Polygon1.png);
+  background-repeat: no-repeat;
+}
+.leftline{
+  position: absolute;
+  width: 320px;
+  height: 0px;
+  left: 87px;
+  top: 758px;
+  z-index: -1;
+  border: 3px solid #E5E5E5;
+  transform: rotate(-0.01deg);
+}
+.rightline{
+  position: absolute;
+  width: 265px;
+  height: 0px;
+  left: 1053px;
+  top: 758px;
+  z-index: -1;
+  border: 3px solid #E5E5E5;
+}
+.Rectangle20{
+  position: absolute;
+  width: 85px;
+  height: 87px;
+  left: 400px;
+  top: 714px;
+  z-index: -1;
+}
+.Rectangle21{
+  left: 511px;
+}
+.Rectangle22{
+  left: 622px;
+}
+.Rectangle23{
+  left: 733px;
+}
+.Rectangle24{
+  left: 844px;
+}
+.Rectangle25{
+  left: 955px;
 }
 .demo{
   height: 30px;
@@ -43,12 +184,11 @@
 
   color: #454545;
 }
-
 .card{
   height: 440px;
   width: 605px;
-  position: relative;
-  top: 930px;
+  position: absolute;
+  top: 1030px;
   left: 49px;
   float: left;
   z-index: -1;
@@ -62,62 +202,103 @@
 .card1{
   background-image: url(img/card1.svg);
 }
+.card1p{
+  position: absolute;
+  width: 170px;
+  height: 22px;
+  left: 332px;
+  top: 1472px;
+  text-align: left;
+  z-index: -1;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #454545;
+}
 .card2{
-  left: 100px;
+  left: 709px;
   background-image: url(img/card2.svg);
 }
-
+.card2p{
+  left: 992px;
+}
 .card3{
-  position: absolute;
   height: 420px;
-  top: 1530px;
+  top: 1580px;
   left: 49px;
   box-shadow: 2px 2px 5px;
   background-image: url(img/card3.svg);
   background-repeat: no-repeat;
 }
-
+.card3p{
+  top: 2022px;
+  left: 332px;
+}
 .card4{
-  position: absolute;
-  top: 1530px;
-  left: 709px;
+  top: 1580px;
+  left: 719px;
+  width: 585px;
+  height: 420px;
+  box-shadow: 2px 2px 5px;
   background-image: url(img/card4.svg);
   background-repeat: no-repeat;
 }
+.card4p{
+  top: 2022px;
+  left: 992px;
+}
 .card5{
-  position: absolute;
-  top: 2097px;
+  top: 2130px;
   left: 49px;
   background-image: url(img/card5.svg);
   background-repeat: no-repeat;
 }
+.card5p{
+  top: 2572px;
+  left: 332px;
+}
 .card6{
-  position: absolute;
-  top: 2097px;
+  top: 2130px;
   left: 709px;
   background-image: url(img/card6.svg);
   background-repeat: no-repeat;
 }
+.card6p{
+  top: 2572px;
+  left: 992px;
+}
 .card7{
-  position: absolute;
-  top: 2697px;
+  top: 2680px;
   left: 49px;
   background-image: url(img/card7.svg);
   background-repeat: no-repeat;
 }
+.card7p{
+  top: 3122px;
+  left: 332px;
+}
 .card8{
-  position: absolute;
-  top: 2697px;
+  top: 2680px;
   left: 709px;
   background-image: url(img/card8.svg);
   background-repeat: no-repeat;
 }
+.card8p{
+  top: 3122px;
+  left: 992px;
+}
 .card9{
-  position: absolute;
-  top: 3202px;
+  top: 3230px;
   left: 420px;
   background-image: url(img/card9.svg);
   background-repeat: no-repeat;
+}
+.card9p{
+  top: 3672px;
+  left: 662px;
 }
 .footer{
   position: absolute;
@@ -132,7 +313,7 @@
   position: absolute;
   width: 164px;
   top: 53px;
-  left: 140px;
+  left: 74px;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -141,14 +322,176 @@
   line-height: 0px;
 }
 .input{
+  width: -moz-available
+}
+.divinput{
   height: 42px;
   width: 306px;
   position: absolute;
   top: 27px;
-  left: 353px;
+  left: 287px;
+  right: 700px;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+
+  /* identical to box height, or 214% */
+  letter-spacing: 0.03em;
+}
+.button{
+  position: absolute;
+  width: 121px;
+  height: 42px;
+  top: 27px;
+  left: 619px;
+  color: white;
+  border: none;
+
+  background: #424141;
+  border-radius: 20px;
+}
+.social{
+  position: absolute;
+  top: 34px;
+  left: 1136px;
+  width: 100.75px;
+  height: 23.25px;
+  background-image: url(img/Group8.png);
+}
+.keep{
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  top: 35px;
+  left: 937px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  /* identical to box height, or 167% */
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+}
+.footerdiv{
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  height: 397px;
+  width: 100%;
+  background-image: url(img/footer.svg);
+  background-repeat: no-repeat;
+}
+.topline{
+  position: absolute;
+  width: 1163px;
+  height: 0px;
+  top: 87px;
+  left: 68px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.midline{
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  top: 187px;
+  left: 977px;
+
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  transform: rotate(-90deg);
+}
+.bottomline{
+  top: 290px;
+}
+.footerp{
+  position: absolute;
+  width: 355px;
+  height: 60px;
+  top: 111px;
+  left: 68px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+
+  /* or 214% */
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+}
+.footerp2{
+  width: 166px;
+  height: 27px;
+  top: 187px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.footerp3{
+  top: 226px;
+}
+.footera{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  width: 193px;
+  height: 150px;
+  font-size: 18px;
+  line-height: 30px;
+  top: 111px;
+  left: 831px;
+  text-decoration: none;
+  position: absolute;
+  /* or 167% */
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
+}
+.footerp4{
+  position: absolute;
+  width: 169px;
+  height: 42px;
+  top: 156px;
+  left: 1129px;
+
+  font-family: 'Sail', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+.footerp5{
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  top: 311px;
+  left: 522px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+
+  /* identical to box height, or 214% */
+  letter-spacing: 0.03em;
+
+  color: #FFFFFF;
 }
 .navbar{
   height: 48px;
