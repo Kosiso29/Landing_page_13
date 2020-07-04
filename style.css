@@ -16,10 +16,10 @@
   z-index: 1;
 }
 .headertext{
-  height: 1.976vw; /*42px*/
+  height: 3.976vw; /*42px*/
   width: 12.37%; /*169px*/
   position: absolute;
-  left: 4.978%; /*68px*/
+  left: 4.678%; /*68px*/
   top: 50px;
   color: white;
   font-family: 'Sail', cursive;
@@ -27,12 +27,11 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 42px;
-  z-index: 10;
 }
 .demos{
   position: absolute;
   height: 3.075vw; /*27px*/
-  width: 4.685%; /*64px*/
+  width: 5.685%; /*64px*/
   top: 61px;
   left: 55.93%; /*764px*/
   font-family: 'Poppins', sans-serif;
@@ -54,7 +53,7 @@
   color: white;
   width: 12.96%; /*177px*/
   height: 32px;
-  left: 79.35%; /*1043*/
+  left: 76.35%; /*1043px*/
   text-align: center;
 
   border: 2px solid #FFFFFF;
@@ -65,15 +64,14 @@
   position: relative;
   top: 195px;
   left: 68px;
-  width: 1141px;
-  height: 30px;
+  width: 941px;
+  height: 100px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 165.6%;
-  z-index: -1;
 
   /* identical to box height, or 30px */
 
@@ -83,6 +81,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
+  height: 36px;
 }
 .viewdemos{
   position: absolute;
@@ -112,9 +111,9 @@
   height: 392.83px;
   left: 0px;
   top: 446.11px;
-  z-index: -1;
   background-image: url(img/Polygon2.png);
   background-repeat: no-repeat;
+  z-index: -1;
 }
 .rightTriangle{
   position: absolute;
@@ -316,7 +315,7 @@
   color: white;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 18px;
   line-height: 0px;
 }
