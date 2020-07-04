@@ -5,6 +5,7 @@
   padding: 0;
   height: 4045px;
   width: 100vw;
+  overflow-x: visible;
 }
 .header{
   height: 148px;
@@ -53,7 +54,7 @@
   color: white;
   width: 12.96%; /*177px*/
   height: 32px;
-  left: 76.35%; /*1043px*/
+  left: 79.35%; /*1043px*/
   text-align: center;
 
   border: 2px solid #FFFFFF;
@@ -170,7 +171,7 @@
   height: 30px;
   width: 100vw;
   position: relative;
-  top: 802px;
+  top: 752px;
   text-align: center;
 
   font-family: 'Poppins', sans-serif;
@@ -301,6 +302,7 @@
 }
 .footer{
   position: absolute;
+  display: block;
   top: 3800px;
   height: 398px;
   width: 100%;
@@ -309,15 +311,16 @@
 }
 .p1{
   position: absolute;
+  height: 30px;
   width: 164px;
-  top: 53px;
+  top: 35px;
   left: 74px;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 0px;
+  line-height: 30px;
 }
 .divinput{
   height: 42px;
